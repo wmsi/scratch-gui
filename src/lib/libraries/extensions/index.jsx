@@ -29,6 +29,42 @@ export default [
     {
         name: (
             <FormattedMessage
+                defaultMessage="Database Blocks"
+                description="Name for the 'Database Blocks' extension"
+                id="gui.extension.dbBlocks.name"
+            />
+        ),
+        extensionId: 'dbBlocks',
+        description: (
+            <FormattedMessage
+                defaultMessage="Interact with Remote Databases."
+                description="Description for the 'Database Blocks' extension"
+                id="gui.extension.dbBlocks.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Hello World"
+                description="Name for the 'Hello WOrld' extension"
+                id="gui.extension.helloWorld.name"
+            />
+        ),
+        extensionId: 'helloWorld',
+        description: (
+            <FormattedMessage
+                defaultMessage="Example extension."
+                description="Description for the 'Hello World' extension"
+                id="gui.extension.helloWorld.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
                 defaultMessage="Music"
                 description="Name for the 'Music' extension"
                 id="gui.extension.music.name"
@@ -204,7 +240,7 @@ export default [
         helpLink: 'https://scratch.mit.edu/ev3'
     },
     {
-        name: 'LEGO Education WeDo 2.0',
+        name: 'LEGO WeDo 2.0',
         extensionId: 'wedo2',
         collaborator: 'LEGO',
         iconURL: wedoImage,
