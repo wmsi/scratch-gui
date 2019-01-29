@@ -26,6 +26,7 @@ import wedoMenuImage from './peripheral-connection/wedo/wedo-small.svg';
 import wedoButtonImage from './peripheral-connection/wedo/wedo-button-illustration.svg';
 
 export default [
+// React Component for DB Blocks extension
     {
         name: (
             <FormattedMessage
